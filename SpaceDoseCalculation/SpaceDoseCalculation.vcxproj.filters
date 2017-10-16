@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{6f01d33e-2164-4f29-868b-2cd8db65fd7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Opengl封装">
+      <UniqueIdentifier>{168b41c2-af23-4431-8bb2-a9eb751a7dd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Opengl封装\Depth-Stencil Testing">
+      <UniqueIdentifier>{0c624617-fea5-412e-8945-9584d4a7baf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Opengl封装\Layer Rendering">
+      <UniqueIdentifier>{2e4ada3f-3063-4da5-8062-b21aa6ba6a57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Opengl封装\Model loading">
+      <UniqueIdentifier>{221cc5b0-f1d4-4b1b-9fc4-74ca75c996cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="the ui of this program">
+      <UniqueIdentifier>{28f58bec-92d0-4b7c-8f67-18d614972470}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="the ui of this program\backgrouncd">
+      <UniqueIdentifier>{546174a1-0260-4e78-81ac-bd45fe9f7972}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="KHR\khrplatform.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="std_image.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_glfw_gl3.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_rect_pack.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_textedit.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_truetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Opengl封装</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalFuncs.h">
+      <Filter>Opengl封装</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameDepthStencilBuffer.h">
+      <Filter>Opengl封装\Depth-Stencil Testing</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameTextureBuffer.h">
+      <Filter>Opengl封装\Layer Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Opengl封装</Filter>
+    </ClInclude>
+    <ClInclude Include="glad\glad.h">
+      <Filter>Opengl封装</Filter>
+    </ClInclude>
+    <ClInclude Include="SpaceShip.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Opengl封装\Model loading</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Opengl封装\Model loading</Filter>
+    </ClInclude>
+    <ClInclude Include="DoseUIs.h">
+      <Filter>the ui of this program</Filter>
+    </ClInclude>
+    <ClInclude Include="Cosmos.h">
+      <Filter>the ui of this program\backgrouncd</Filter>
+    </ClInclude>
+    <ClInclude Include="Earth.h">
+      <Filter>the ui of this program\backgrouncd</Filter>
+    </ClInclude>
+    <ClInclude Include="Moon.h">
+      <Filter>the ui of this program\backgrouncd</Filter>
+    </ClInclude>
+    <ClInclude Include="SolarSys.h">
+      <Filter>the ui of this program\backgrouncd</Filter>
+    </ClInclude>
+    <ClInclude Include="Sun.h">
+      <Filter>the ui of this program\backgrouncd</Filter>
+    </ClInclude>
+    <ClInclude Include="WelcomeUI.h">
+      <Filter>the ui of this program</Filter>
+    </ClInclude>
+    <ClInclude Include="DoseCalcException.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MultisampleFrameBuffer.h">
+      <Filter>Opengl封装</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigureEditor.h">
+      <Filter>the ui of this program</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="deprecated.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_glfw_gl3.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="MainSDC.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DoseCalcException.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Opengl封装</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalFuncs.cpp">
+      <Filter>Opengl封装</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameDepthStencilBuffer.cpp">
+      <Filter>Opengl封装\Depth-Stencil Testing</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameTextureBuffer.cpp">
+      <Filter>Opengl封装\Layer Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Opengl封装</Filter>
+    </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>Opengl封装</Filter>
+    </ClCompile>
+    <ClCompile Include="SpaceShip.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Opengl封装\Model loading</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Opengl封装\Model loading</Filter>
+    </ClCompile>
+    <ClCompile Include="DoseUIs.cpp">
+      <Filter>the ui of this program</Filter>
+    </ClCompile>
+    <ClCompile Include="Cosmos.cpp">
+      <Filter>the ui of this program\backgrouncd</Filter>
+    </ClCompile>
+    <ClCompile Include="Earth.cpp">
+      <Filter>the ui of this program\backgrouncd</Filter>
+    </ClCompile>
+    <ClCompile Include="Moon.cpp">
+      <Filter>the ui of this program\backgrouncd</Filter>
+    </ClCompile>
+    <ClCompile Include="SolarSys.cpp">
+      <Filter>the ui of this program\backgrouncd</Filter>
+    </ClCompile>
+    <ClCompile Include="Sun.cpp">
+      <Filter>the ui of this program\backgrouncd</Filter>
+    </ClCompile>
+    <ClCompile Include="WelcomeUI.cpp">
+      <Filter>the ui of this program</Filter>
+    </ClCompile>
+    <ClCompile Include="MultisampleFrameBuffer.cpp">
+      <Filter>Opengl封装</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigureEditor.cpp">
+      <Filter>the ui of this program</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

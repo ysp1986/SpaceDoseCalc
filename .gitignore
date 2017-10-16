@@ -1,3 +1,17 @@
+﻿DocX/bin/**
+
+DocX/obj/**
+
+Reporter/obj/**
+
+Reporter/bin/**
+
+Debug/**
+
+Release/**
+
+深空探索载人航天器空间辐射风险预估系统/**
+
 # Compiled Object files
 *.slo
 *.lo
@@ -77,3 +91,27 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+*.log
+*.tmp
+*.tlog
+*.pdb
+*.idb
+*.ilk
+*.sdf
+*.ipch
+*.diagsession
+*.db
+.vs/OpenGLDemo/v15/.suo
+*.opendb
+*.db-shm
+*.db-wal
+*.shader
+*.jpg
+*.bmp
+*.dat
+*.cry
+*.ttf
+*.dt2
+*.dt1
+*.flx
+*.zip
